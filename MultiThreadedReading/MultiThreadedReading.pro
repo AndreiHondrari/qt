@@ -9,4 +9,10 @@ CONFIG -= app_bundle
 
 TEMPLATE = app
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    bigfiledatatransfer.cpp \
+    filereadtask.cpp
+
+HEADERS += \
+    bigfiledatatransfer.h \
+    filereadtask.h
